@@ -21,9 +21,9 @@ a {
 li{
     display: inline; 
 }
-.conteiner{
+.container{
     min-height: 663px;
-    background-image: url("..\img\Rectangle 2.png");
+    background-image: url("..\img\Rectangle 2.png"); /* для фона  */
 }
 .brends{
     height: 122px;
