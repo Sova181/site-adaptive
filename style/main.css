@@ -14,4 +14,8 @@ body{
 }
 .brends > img{
     margin: 40px;
+} 
+.big-card{
+    display: flex;
+    justify-content: space-between;
 }
