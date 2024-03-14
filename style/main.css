@@ -9,6 +9,8 @@ body{
     height: 38px;
     text-align: center;
     background: rgb(20, 19, 19);
+    color: azure;
+    padding-top: 10px;
 } 
 ul{
     list-style: none;
@@ -22,7 +24,7 @@ a {
 li{
     display: inline; 
 }
-.container{
+.container1{
     min-height: 663px;
     background-image: url("..\img\Rectangle 2.png"); /* для фона  */
 }
@@ -37,4 +39,9 @@ li{
 .big-card{
     display: flex;
     justify-content: space-between;
+}
+.container{
+    display: flex; 
+flex-direction: column;
+justify-content: space-between;
 }
