@@ -1,59 +1,88 @@
-html{
+html {
     box-sizing: border-box;
 }
-body{
+
+body {
     height: 100%;
     margin: 0 20px 0 20px;
-} 
-.sale{
+}
+
+.sale {
     height: 38px;
     text-align: center;
     background: rgb(20, 19, 19);
     color: azure;
     padding-top: 10px;
-} 
-ul{
-    list-style: none;
-    margin: 0; 
-    padding-left: 0; 
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: inline;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
 a {
     text-decoration: none;
     color: black;
 }
-li{
-    display: inline; 
+
+li {
+    display: inline;
 }
-.container1{
-      min-height: 663px; 
-    background-image: url("../img/Rectangle 2.jpg"); /* для фона  */
+
+form {
+    display: inline;
+    min-width: 151px;
+    height: 22px;
+    background-color: rgba(151, 151, 151, 0.684);
+}
+
+.container1 {
+    min-height: 663px;
+    background-image: url("../img/Rectangle 2.jpg");
+    /* для фона  */
     background-repeat: no-repeat;
 }
-.container1 > h1{
+
+.container1>h1 {
     max-width: 577px;
     height: 192px;
     font-size: 64px;
     font-weight: bold;
     font-family: sans-serif;
- }
-.container1 > p{
-   max-width: 577px;
 }
-.brends{
+
+.container1>p {
+    max-width: 577px;
+}
+
+.brends {
     height: 122px;
     background-color: rgb(20, 19, 19);
     text-align: center;
     margin: 0;
 }
-.brends > img{
+
+.brends>img {
     margin: 40px;
-} 
-.big-card{
+}
+
+.big-card {
     display: flex;
     justify-content: space-between;
 }
-.container{
-    display: flex; 
-flex-direction: column;
-justify-content: space-between;
-} 
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
