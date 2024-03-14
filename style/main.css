@@ -4,7 +4,7 @@ html {
 
 body {
     height: 100%;
-    margin: 0 20px 0 20px;
+    margin: 0 50px 0 50px;
 }
 
 .sale {
@@ -14,10 +14,15 @@ body {
     color: azure;
     padding-top: 10px;
 }
+/*   */
+header{
 
-header {
+}
+nav{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
+    min-height: 85px;
+    margin: 40px;
 }
 
 .logo {
@@ -48,8 +53,8 @@ form {
 
 .container1 {
     min-height: 663px;
-    background-image: url("../img/Rectangle 2.jpg");
-    /* для фона  */
+    min-width: 1440px;
+    background-image: url("../img/Rectangle 2.jpg");/* для фона  */
     background-repeat: no-repeat;
 }
 
@@ -81,7 +86,7 @@ form {
     justify-content: space-between;
 }
 
-.container {
+main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
