@@ -3,7 +3,7 @@ html{
 }
 body{
     height: 100%;
-    margin: 0;
+    margin: 0 20px 0 20px;
 } 
 .sale{
     height: 38px;
@@ -25,13 +25,25 @@ li{
     display: inline; 
 }
 .container1{
-    min-height: 663px;
-    background-image: url("..\img\Rectangle 2.png"); /* для фона  */
+      min-height: 663px; 
+    background-image: url("../img/Rectangle 2.jpg"); /* для фона  */
+    background-repeat: no-repeat;
+}
+.container1 > h1{
+    max-width: 577px;
+    height: 192px;
+    font-size: 64px;
+    font-weight: bold;
+    font-family: sans-serif;
+ }
+.container1 > p{
+   max-width: 577px;
 }
 .brends{
     height: 122px;
     background-color: rgb(20, 19, 19);
     text-align: center;
+    margin: 0;
 }
 .brends > img{
     margin: 40px;
@@ -44,4 +56,4 @@ li{
     display: flex; 
 flex-direction: column;
 justify-content: space-between;
-}
+} 
