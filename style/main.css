@@ -74,14 +74,16 @@ form>input {
     background-repeat: no-repeat;
 }
 
-.container1>h1 {
+/*  .container1>h1 {
     max-width: 577px;
     height: 192px;
     font-size: 64px;
     font-weight: bold;
     font-family: sans-serif;
+}  */
+.container1>img{
+padding: 100px 50px 30px 100px;
 }
-
 .container1>p {
     max-width: 577px;
 }
