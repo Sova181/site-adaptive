@@ -150,3 +150,21 @@ h1{
     border-radius: 20px;
     
 }
+
+main>button{
+    width: 218px;
+    height: 52px;
+    margin: 0 600px 66px 600px;
+    border-radius: 62px;
+    border-color: #45454586;
+    background-color: rgb(255, 255, 255);
+    font-size: 16px;
+} 
+
+.hr-line {
+	margin: 0 100px 60px 100px;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 1px solid #45454586;
+}
