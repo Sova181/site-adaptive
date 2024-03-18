@@ -184,12 +184,48 @@ margin: 0 100px 90px 100px;
 } 
 
 .email{
-    margin-left: 100px;
+    margin:0 100px 0 100px;
 }
 
-footer{
+.footer{
     display: inline-flex;
     justify-content: space-between;
     padding: 50px 100px 50px 100px;
 }
 
+.footer_logo_info{
+    padding-right: 108px;
+}
+
+.footer_company{
+padding-right: 100px;
+}
+
+.footer_help{
+    padding-right: 105px;
+}
+
+.footer_faq{
+    padding-right: 105px;
+}
+
+.hr-line2{
+    margin: 0 100px 27px 100px;
+	padding: 0;
+	height: 0;
+	border: none;
+	border-top: 1px solid #45454586;
+}
+
+footer > div.pay
+{
+    display: flex;
+}
+ .pay{
+    justify-content: space-between;
+    padding: 0 100px 0 100px;
+}
+
+footer > .year{
+max-height: 19px;
+}
