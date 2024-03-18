@@ -112,7 +112,7 @@ form>input {
 }
 
 .brends {
-    padding: 4px 60px 4px 60px;
+    padding: 0 100px 0 100px;  
     max-width: 1440px;
     height: 122px;
     background-color: rgb(0, 0, 0);
@@ -120,7 +120,7 @@ form>input {
 }
 
 .brends>img {
-    margin: 40px;
+  margin: 44px 81px 44px 0;
 }
 
 main {
@@ -162,7 +162,7 @@ main>button{
 } 
 
 .hr-line {
-	margin: 0 100px 60px 100px;
+	margin: 0 100px 0 100px;
 	padding: 0;
 	height: 0;
 	border: none;
