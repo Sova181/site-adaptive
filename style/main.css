@@ -170,5 +170,15 @@ main>button{
 }
 
 main > .dress-style{
-margin: 0 100px 0 100px;
+margin: 0 100px 90px 100px;
+}
+
+.customers > img{
+    display: inline-flex;
+    justify-content: space-evenly;
+    margin:0 100px 40px 100px ; 
+}
+/* arrow??? */
+.cust_img{
+    margin-bottom: 80px;
 }
