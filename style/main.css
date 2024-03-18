@@ -4,22 +4,24 @@ html {
 
 body {
     height: 100%;
-  /*   margin: 0 50px 0 50px;  */
+    /*   margin: 0 50px 0 50px;  */
 }
 
 .sale {
     max-width: 1440px;
     height: 38px;
     text-align: center;
-    background: rgb(20, 19, 19);
+    background: rgb(0, 0, 0);
     color: azure;
     padding-top: 10px;
 }
-.sale>img{
+
+.sale>img {
     position: absolute;
-padding: 3px;
-margin: 0 0 0 425px;
+    padding: 3px;
+    margin: 0 0 0 425px;
 }
+
 /*   */
 header {
     margin: 40px;
@@ -87,29 +89,33 @@ form>input {
     font-weight: bold;
     font-family: sans-serif;
 }  */
-.container1>img{
-padding: 100px 50px 30px 100px;
+.container1>img {
+    padding: 100px 50px 30px 100px;
 }
+
 .container1>p {
     max-width: 577px;
     padding-left: 100px;
 }
+
 .container1>button {
     width: 210px;
     height: 52px;
     margin: 25px 0 50px 100px;
-    border-radius: 62px ;
-    background-color: rgb(20, 19, 19);
-    color:azure;
+    border-radius: 62px;
+    background-color: rgb(0, 0, 0);
+    color: azure;
 }
-.numbers{
+
+.numbers {
     padding-left: 100px;
 }
+
 .brends {
+    padding: 4px 60px 4px 60px;
     max-width: 1440px;
     height: 122px;
-    background-color: rgb(20, 19, 19);
-    text-align: center;
+    background-color: rgb(0, 0, 0);
     margin: 0;
 }
 
@@ -117,14 +123,30 @@ padding: 100px 50px 30px 100px;
     margin: 40px;
 }
 
-.big-card {
-    display: flex;
-    justify-content: space-between;
-}
-
 main {
     max-width: 1440px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+  /*  justify-content: space-between;  */
+}
+
+h1{
+    margin: 70px 520px 61px 520px;
+    font-weight: bold;
+}
+.big-card {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1440px;
+    margin: 0 100px 36px 100px;
+}
+
+.mini-card{
+    padding-right: 20px;
+    
+}
+
+.mini-card>img{
+    border-radius: 20px;
+    
 }
