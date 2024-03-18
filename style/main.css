@@ -4,10 +4,11 @@ html {
 
 body {
     height: 100%;
-    margin: 0 50px 0 50px;
+  /*   margin: 0 50px 0 50px;  */
 }
 
 .sale {
+    max-width: 1440px;
     height: 38px;
     text-align: center;
     background: rgb(20, 19, 19);
@@ -21,6 +22,7 @@ header {
 }
 
 nav {
+    max-width: 1440px;
     display: flex;
     justify-content: flex-start;
     justify-content: space-around;
@@ -86,9 +88,21 @@ padding: 100px 50px 30px 100px;
 }
 .container1>p {
     max-width: 577px;
+    padding-left: 100px;
 }
-
+.container1>button {
+    width: 210px;
+    height: 52px;
+    margin: 25px 0 50px 100px;
+    border-radius: 62px ;
+    background-color: rgb(20, 19, 19);
+    color:azure;
+}
+.numbers{
+    padding-left: 100px;
+}
 .brends {
+    max-width: 1440px;
     height: 122px;
     background-color: rgb(20, 19, 19);
     text-align: center;
@@ -105,6 +119,7 @@ padding: 100px 50px 30px 100px;
 }
 
 main {
+    max-width: 1440px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
