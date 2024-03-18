@@ -168,3 +168,7 @@ main>button{
 	border: none;
 	border-top: 1px solid #45454586;
 }
+
+main > .dress-style{
+margin: 0 100px 0 100px;
+}
