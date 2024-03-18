@@ -15,7 +15,11 @@ body {
     color: azure;
     padding-top: 10px;
 }
-
+.sale>img{
+    position: absolute;
+padding: 3px;
+margin: 0 0 0 425px;
+}
 /*   */
 header {
     margin: 40px;
