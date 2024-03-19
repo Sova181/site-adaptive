@@ -173,13 +173,27 @@ main > .dress-style{
 margin: 0 100px 90px 100px;
 }
 
-.customers > img{
+/*  .customers > img{
     display: inline-flex;
     justify-content: space-evenly;
     margin:0 100px 40px 100px ; 
+}  */ 
+
+.customers{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-left{
+    margin-left: 100px;
+}
+
+
+.arrow-right{
+    margin-right: 100px;
 }
 /* arrow??? */
-.cust_img{
+.cust_happy{
     margin-bottom: 80px;
 } 
 
@@ -220,6 +234,7 @@ padding-right: 100px;
 footer > div.pay
 {
     display: flex;
+    padding-bottom: 91px;
 }
  .pay{
     justify-content: space-between;
