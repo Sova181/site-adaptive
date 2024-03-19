@@ -19,29 +19,37 @@ body {
 .sale>img {
     position: absolute;
     padding: 3px;
-    margin: 0 0 0 425px;
+    margin: 0 100px 0 425px;
 }
 
 /*   */
 header {
-    margin: 40px;
+    margin: 40px 0 40px 0;
 }
 
 nav {
     max-width: 1440px;
     display: flex;
-    justify-content: flex-start;
-    justify-content: space-around;
-    padding: 10px 0 10px 0;
 }
 
 nav>img {
     height: 24px;
-    padding: 6px 10px 6px 0;
+   
+}
+
+
+.search{
+    height: 48px;
+    margin-right: 40px;
+}
+
+.reg_avtor{
+    margin-right: 100px;
+    padding: 0;
 }
 
 .logo {
-    padding: 6px 40px 6px 0;
+    padding: 6px 40px 6px 100px;
 }
 
 ul {
@@ -237,6 +245,7 @@ footer > div.pay
     padding-bottom: 91px;
 }
  .pay{
+    display: flex;
     justify-content: space-between;
     padding: 0 100px 0 100px;
 }
